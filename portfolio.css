@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: rgb(189, 141, 124);
+    border: 1px white solid;
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+
+.row{
+    display: flex;
+}
+
+.logo{
+    line-height: 0px;
+
+}
+
+body header nav ul{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.nav{
+    width: 25%;
+    padding-top: 80px;
+    padding-left: 220px;
+    color: rgb(17, 15, 15);
+    font-size: 25px;
+    text-decoration: none;
+
+}
+.nav:hover{
+    color:rgb(156, 56, 19);
+}
+#introduction{
+    display: flex;
+}
+#mypic{
+    border: 1px coral solid;
+    border-radius: 50%;
+    width: 420px;
+    height: 420px;
+    margin-top: 40px;
+    margin-left: 100px;
+} 
+.intro{
+    padding-left: 120px;
+    line-height: 10px;
+
+}
+.circle{
+    border: 1px solid rgb(39, 35, 35);
+    border-radius: 50%;
+    margin-left: 100px;
+    padding: 80px;
+    font-size: 22px;
+    text-decoration: none;
+    color: brown;
+}
+#circle1{
+    background-color: coral;
+}
+#circle2{
+    background-color: cornflowerblue;
+}
+#circle3{
+    background-color: rgb(179, 133, 202);
+}
+#circle1:hover , #circle2:hover ,#circle3:hover{
+    color:ghostwhite;
+}
+.list{
+    margin-top: -120px;
+    margin-left: 500px;
+    font-size: 20px;
+    line-height: 15px;
+}
+#Myprojects{
+    display: flex;
+}
+
+.myprojectimg{
+    margin-left: 200px;
+    width: 400px;
+    height: 230px;
+    border: 1px solid darkolivegreen
+}
+.heading{
+    margin-top: 250px;
+    margin-left: -220px;
+}
+.shape{
+    border: 1px solid 
+}
+.project-both-balls {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+}
+.projectball-1stpart{
+    border-radius: 60px 0px 0px 60px;
+    background-color: grey;
+    width: 60px;
+    height: 120px;
+    padding-top: 0px;
+    margin-left: 335px;
+}
+.projectball-2ndpart{
+    border-radius: 0px 60px 60px 0px;
+    background-color: rgb(162, 199, 199);
+    width: 60px;
+    height: 120px;
+}
+.project-both-balls p{
+    padding-top: 50%;
+    font-weight:510;
+}
+.projectball-1stpart:hover{
+    color: rgb(247, 177, 212);
+    font-size: large;
+}
+.projectball-2ndpart :hover {
+    color: lightyellow;
+    font-size: large;
+}
+#myskills .round{
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 10%;
+    height: 100px;
+    text-align: center;
+}
+#myskills .round p{
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 540;
+}
+.headingmyskills{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    text-decoration: underline ;
+    text-shadow: 20rem;
+}
+#ball1{
+    background-color: aqua;
+    margin-left: 480px;
+    position: absolute;
+}
+#ball2{
+    background-color: rgb(147, 174, 224);
+    margin-left: 850px;
+    position: absolute;
+}
+#ball3{
+    background-color: khaki;
+    margin-left: 1568px;
+    margin-top: 41px;
+    position: absolute;
+}
+#ball4{
+    background-color: rgb(178, 236, 178);
+    margin-left: 1363px;
+    margin-top: 109px;
+    position: absolute;
+}
+#ball5{
+    background-color: rgb(238, 14, 163);
+    margin-left: 1016px;
+    margin-top: 113px;
+    position: absolute;
+}
+#ball6{
+    background-color: rgb(247, 177, 212);
+    margin-left: 80px;
+    margin-top: 62px;
+    position: absolute;
+}
+#ball7{
+    background-color: rgb(62, 66, 64);
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 122px;
+}
+#ball8{
+    background-color: lightsalmon;
+    margin-left: 1220px;
+    margin-top: 0px;
+    position: absolute;
+}
+#ball9{
+    background-color: darkgray;
+    margin-left: 330px;
+    position: absolute;
+    margin-top: 128px;
+}
